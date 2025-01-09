@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="precadastro.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">   
+            <form method="post" action="#">
+                <fieldset class="login">
+                    <legend>Login</legend>
+                    <label>Login/E-mail:</label><input type="email" required placeholder="exemplo@email.com.br" name="loginenter"/>
+                    <label>Senha:</label><input type="password" required placeholder="Senha de 6 dígitos" name="passwordenter">
+                    <button type="">Entrar</button>
+                    <button type="signup-button"><a href="signup.html">Criar conta</a></button>
+                </fieldset>
+            </form>   >
+            <fieldset class="links">
+                <legend>Menu</legend>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre a OrtoVida</a></li>
+                    <li><a href="horario.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </fieldset>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens/clinicatop.svg" title="Clínica OrtoVida" alt="Clínica OrtoVida">
+            </div>
+    
+            <div class="content">
+                <form method="post" action="#">
+                    <fieldset class="pcadastro">
+                        <legend class="legend">Pré-cadastro do Paciente:</legend>
+                        <label><sup>*</sup>Nome: <input class="name" type="text" required placeholder="Nome do paciente" name="nome"/></label><br>
+                        <label><sup>*</sup>Idade: <input class="year" type="number" min="0" max="110" placeholder="Idade" required name="idade" /></label><br>
+                        <label><sup>*</sup>Login/Email: <input class="email" type="email" placeholder="exemplo@email.com.br" required name="email"></label><br>
+                        <label><sup>*</sup>Senha: <input class="password" type="password" placeholder="6 dígitos" required name="senha"></label><br>
+                        <label><sup>*</sup>Assistência Média/Particular: <select name="assistencia" required>
+                            <option value="" ></option>
+                            <option value="particular">Particular</option>
+                            <option value="assistencia">Assistência Médica</option>
+                        </select></label><br>
+                        <button class="signup" type="">Cadastrar</button>
+                        <blockquote><sub>* Preenchimento obrigatório</sub></blockquote>                
+                    </fieldset>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <div class="contatos">
+                    <h1>Contatos:</h1>
+                    <p>Clínica OrtoVida: (21) 1234-5678</p>
+                    <p>Endereço: Rua das Flores, 123, Rio de Janeiro, RJ</p>
+                    <p>&copy; 2025 Clínica OrtoVida. Todos os direitos reservados.</p>
+                </div><br>
+                <div class="devinfo">
+                    <h2>Desenvolvido por <strong>Tiago de Noronha Leopoldo</strong></h2>
+                    <p><strong>Contato:</strong> <a href="mailto:noronha.leopoldo@hotmail.com" target="_blank">noronha.leopoldo@hotmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/TiagoLeopoldo" target="_blank" >TiagoLeopoldo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
