@@ -104,7 +104,7 @@ body {
 /*--- Cabeçalho ---*/
 .header {
     background-color: rgb(5, 108, 108);
-    min-height: 100px;
+    height: 304px;
 }
 
 
@@ -171,10 +171,6 @@ iframe {
     color: #333;
     text-align: center;
     line-height: 0.5;
-}
-
-.footer .contatos h1 {
-    font-size: 24px;
 }
 
 .footer .devinfo a {
