@@ -63,7 +63,7 @@ body {
     box-shadow: 2px 2px #333     
 }
 
-.menu .links ul li a {
+.menu .links ul a {
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
