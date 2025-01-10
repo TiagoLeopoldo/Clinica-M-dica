@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">   
+            <form method="post" action="#">
+                <fieldset class="login">
+                    <legend>Login</legend>
+                    <label>Login/E-mail:</label><input type="email" required placeholder="exemplo@email.com.br" name="loginenter"/>
+                    <label>Senha:</label><input type="password" required placeholder="Senha de 6 dígitos" name="passwordenter">
+                    <button type="">Entrar</button>
+                    <button type="signup-button"><a href="signup.html">Criar conta</a></button>
+                </fieldset>
+            </form>  
+            <fieldset class="links">
+                <legend>Menu</legend>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre a OrtoVida</a></li>
+                    <li><a href="horario.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </fieldset>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens/clinicatop.svg" title="Clínica OrtoVida" alt="Clínica OrtoVida">
+            </div>
+    
+            <div class="content">
+                <h1>Contatos:</h1>
+                <p>Clínica OrtoVida Tel.: <a href="tel: +55 (21) 1234-5678">(21) 1234-5678</a></p>
+                <p>Contato por WhatsApp: <a href="https://web.whatsapp.com/send?phone=5599111112222">(21)98765-4321</a></p>
+                <p>Endereço: Rua das Flores, 123, São João de Meriti, RJ</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.237377554284!2d-43.33288042403393!3d-22.79366647933491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99652b44b9281d%3A0xf06f85bf06a12d32!2sR.%20Rio%20das%20Flores%2C%20123%20-%20Parque%20Tiete%2C%20S%C3%A3o%20Jo%C3%A3o%20de%20Meriti%20-%20RJ%2C%2025585-540!5e0!3m2!1spt-BR!2sbr!4v1736472503300!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form type="post" action="#">
+                    <label>Nome: <input type="text" placeholder="Nome" name="nomemsg" required/></label>
+                    <label>E-mail: <input type="email" placeholder="exemplo@email.com.br" name="emailmsg" required/></label>
+                    <label>Assunto: <input type="text" name="assuntomsg" required/></label>
+                    <label>Menssagem:</label><textarea name="msg" id="#" placeholder="Digite aqui sua mensagem." required></textarea><label></label>
+                    <button class="enviarform" type="">Enviar</button>
+                    <button type="reset">Limpar formulário</button>
+                    
+
+                </form>
+                
+            </div>
+    
+            <div class="footer">
+                <div class="contatos">
+
+                    <p>&copy; 2025 Clínica OrtoVida. Todos os direitos reservados.</p>
+                </div><br>
+                <div class="devinfo">
+                    <h2>Desenvolvido por <strong>Tiago de Noronha Leopoldo</strong></h2>
+                    <p><strong>Contato:</strong> <a href="mailto:noronha.leopoldo@hotmail.com" target="_blank">noronha.leopoldo@hotmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/TiagoLeopoldo" target="_blank" >TiagoLeopoldo</a></p>
+                    <p><strong>Adicione no: </strong><a href="https://www.linkedin.com/in/tiagoleopoldo/" target="_blank" >LinkdIn</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
